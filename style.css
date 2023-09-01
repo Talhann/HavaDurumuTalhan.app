@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header h1{
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+.header input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(134, 104, 5);
+    text-align: center;
+    font-size: 16px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+.header input::placeholder{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.header button{
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: pink;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s all;
+}
+
+.header button:hover{
+    background-color: darkgoldenrod;
+    color: darkblue;
+    transform: scale(1.2);
+}
+
+.content #city{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content #temp{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content #desc{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
